@@ -1,44 +1,43 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>Portfolio</title>
+    <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200 flex justify-center items-center min-h-screen">
-    <div class="bg-white shadow-lg rounded-xl p-8 max-w-lg border border-gray-300">
-        <h1 class="text-3xl font-bold text-indigo-700 mb-4">Tailwind CSS Utilities</h1>
-        
-        <!-- Spacing -->
-        <div class="mb-6 p-4 border border-gray-400">Spacing: Padding & Margin</div>
-        
-        <!-- Sizing -->
-        <div class="h-32 w-64 bg-blue-300 flex justify-center items-center mb-6">
-            Sizing: Width & Height
+<body class="bg-[#111111] text-white">
+    
+    <!-- Header Section -->
+    <header class="text-center p-8 shadow-lg bg-opacity-80">
+        <h1 class="text-4xl font-bold">Testing Portofilio</h1>
+        <p class="text-lg text-gray-200">Praktikum P Web 4 : TailWind CSS</p>
+    </header>
+    
+    <!-- About Me Section -->
+    <section class="p-10">
+        <div class="max-w-4xl mx-auto bg-[#eeeeee] p-6 rounded-lg shadow-xl text-gray-900">
+            <!-- Profile Image -->
+            <img src="../Portofolio.jpg">
+
+            <h2 class="text-2xl font-semibold mt-4">About Me</h2>
+            <p class="text-gray-700 mt-2">Nama: Cindy Fitri Laksono, 20 Tahun</p>
+            <p class="text-gray-700 mt-2">aku masih belajar thanks</p>
         </div>
-        
-        <!-- Typography -->
-        <p class="text-lg text-gray-800 mb-6">Typography: Type & Color</p>
-        
-        <!-- Background -->
-        <div class="bg-gradient-to-r from-teal-300 to-cyan-500 p-4 text-white font-semibold mb-6">
-            Background: Palette & Gradient
+    </section>
+    
+    <!-- Hobbies Section -->
+    <section class="p-10">
+        <div class="max-w-4xl mx-auto bg-[#eeeeee] p-6 rounded-lg shadow-xl text-gray-900">
+            <h2 class="text-2xl font-semibold">Hobi</h2>
+            <p class="text-gray-700 mt-2">Bermain Game Dibawah ini:</p>
+            <!-- Game Image -->
+            <img src="https://i.pinimg.com/736x/e8/45/23/e8452374d51e67955e0c97fed644e448.jpg"
+                 class="w-full h-64 object-cover rounded-lg shadow-md mt-4" 
+                 alt="Game Image">
         </div>
-        
-        <!-- Background Attachment & Overflow -->
-        <div class="bg-cover bg-center bg-fixed h-40 w-full overflow-hidden" style="background-image: url('lumpur.jpg');">
-            <p class="text-white text-center p-4 bg-black bg-opacity-50">Background Attachment & Overflow</p>
-        </div>
-        
-        <!-- Border -->
-        <div class="border-4 border-dashed border-red-500 p-4 text-red-500 mt-6">Border Styles</div>
-        
-        <!-- Effect -->
-        <div class="shadow-2xl p-4 mt-6 opacity-90 text-gray-700">Effects: Shadow & Opacity</div>
-        
-        <!-- Filter -->
-        <img src="sejarah.jpg" class="mt-6 filter blur-sm hover:blur-none rounded-lg" alt="Filtered Image">
-    </div>
+    </section>
+
 </body>
 </html>
